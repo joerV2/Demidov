@@ -3,10 +3,9 @@
 int main()
 { initwindow(800,600);
   house();
-  sun(); 
+   sun(); 
   man();
   fence();
-  // tree();
-  getch();
+  getch(1);
   closegraph();
 }
